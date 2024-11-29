@@ -2,47 +2,51 @@
 
 namespace BagageSolo;
 
-class Program
+internal class Program
 {
-
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         Console.WriteLine("Welkom bij zwembad de golf!\n");
-        //stop hier je hoofd loop
+        //stop hier je hoofd loop fghjk
 
         //laat het menu zien
         // Console.WriteLine("1. Laat het aantal kluizen zien.");
         //etc.
-
     }
-    static int LockerCount()
+
+    private static int LockerCount()
     {
         int count = 0;
         //vind aantal
         return count;
     }
-    static int NewLocker()
+
+    private static int NewLocker()
     {
         //logica om nieuwe kluis te openen
         return 0;
     }
-    static bool OpenLocker()
+
+    private static bool OpenLocker()
     {
         //logica om  kluis te openen
         return false;
     }
-    static bool ReturnLocker()
+
+    private static bool ReturnLocker()
     {
         //logica om  kluis permanent te openen
         return false;
     }
+
     //helper functie template voor het uitlezen van het bestand
-    static List<Kluis> GetLockersFromFile()
+    private static List<Kluis> GetLockersFromFile()
     {
         return [];
     }
+
     //helper functie template voor het schrijven van het bestand
-    static void SaveLockersToFile(List<Kluis> lockers)
+    private static void SaveLockersToFile(List<Kluis> lockers)
     {
         //logica om lockers te schrijven naar bestand
     }
